@@ -15,7 +15,7 @@ def maximizar_troca_de_figurinhas(figurinhas_da_maria, figurinhas_do_joao):
                     break
     return max_trocas
 
-if __name__ == 'main':
+if __name__ == '__main__':
     A, B = input().split(' ')
     figurinhas_da_maria = input().split(' ')
     figurinhas_da_joao = input().split(' ')
